@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* shared style */
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -15,6 +16,7 @@ p {
     color: #474747;
 }
 
+
 .btn-primary {
     background-color: #FD6E0A;
     color: white;
@@ -23,6 +25,15 @@ p {
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
+}
+
+
+/* header */
+header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+
 }
 
 /* nav*/
@@ -51,4 +62,34 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     margin-right: 50px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.banner-profile {
+    width: 560px;
+
 }
