@@ -129,3 +129,90 @@ main {
 .item .d {
     font-weight: bold;
 }
+
+/* skills */
+.skills h2,
+.pp {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.skill-box {
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+/* resume */
+
+.resume-container h2 {
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-card h3 {
+    font-size: 25px;
+}
+
+.resume-card .ddd {
+    color: #757575;
+    font-size: 20px;
+}
+
+.resume-card h3 {
+    color: #757575;
+    font-size: 25px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume .zz {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.resume-card h3 {
+    font-size: 20px;
+}
+
+.resume-card .ddd {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    padding: 20px;
+}
+ input{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: none;
+}
+textarea{
+    width: 100%;
+    border: none;
+}
+
+.ffff{
+    width: 500px;
+}
